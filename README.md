@@ -1,4 +1,4 @@
-## Меняем версию geth и lighthouse
+# Меняем версию geth и lighthouse
 
  ```
   cd charon-distributed-validator-node
@@ -6,17 +6,17 @@
  ```
   nano docker-compose.yml
  ```
- # заменить версию **geth** и **lighthouse**
+ ## заменить версию **geth** и **lighthouse**
    
 - **geth: v1.11.3**
 - **lighthouse : v3.5.1**
 
 Должно получиться так: 
 
-https://i.imgur.com/5UKGub9.png
+[![1.png](https://i.postimg.cc/1Xs0TVgN/1.png)](https://postimg.cc/xJpbNC30)
 
-https://i.imgur.com/WIPKtiv.png
 
+[![2.png](https://i.postimg.cc/PrBJ5s4S/2.png)](https://postimg.cc/BXB4mzRF)
 
 ```
   docker-compose down 
@@ -25,7 +25,7 @@ https://i.imgur.com/WIPKtiv.png
   docker-compose up -d  
 ```
 
-# проверить логи : 
+## проверить логи : 
 
 ```
 docker-compose logs -f
@@ -43,7 +43,7 @@ docker-compose logs lighthouse
 docker-compose logs charon
 ```
 
-если у вас в логах есть ошибка:  ```error:Error: load priv key: decode private key hex: encoding/hex: invalid byte```
+## если у вас в логах есть ошибка:  ```error:Error: load priv key: decode private key hex: encoding/hex: invalid byte```
 
 то делаем следующие действия :
 
