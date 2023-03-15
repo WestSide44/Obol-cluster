@@ -25,7 +25,7 @@
   docker-compose up -d  
 ```
 
-## проверить логи : 
+проверить логи : 
 
 ```
 docker-compose logs -f
@@ -43,7 +43,7 @@ docker-compose logs lighthouse
 docker-compose logs charon
 ```
 
-## если у вас в логах есть ошибка:  ```error:Error: load priv key: decode private key hex: encoding/hex: invalid byte```
+если у вас в логах есть ошибка:  ```error:Error: load priv key: decode private key hex: encoding/hex: invalid byte```
 
 то делаем следующие действия :
 
