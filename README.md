@@ -6,6 +6,8 @@
  ```
   nano docker-compose.yml
  ```
+
+ 
  ## заменить версию **geth** и **lighthouse**
    
 - **geth: v1.11.3**
