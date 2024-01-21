@@ -7,8 +7,8 @@
   nano docker-compose.yml
  ```
 
- 
- ## заменить версию **geth** и **lighthouse**
+  
+  ## заменить версию **geth** и **lighthouse**
    
 - **geth: v1.11.3**
 - **lighthouse : v3.5.1**
@@ -23,24 +23,37 @@
 ```
   docker-compose down 
 ```
+
+
+
 ```
   docker-compose up -d  
 ```
+
+
 
 проверить логи : 
 
 ```
 docker-compose logs -f
 ```
+
+
 ```
 docker logs charon-distributed-validator-node-teku-1
 ```
+
+
 ```
 docker-compose logs geth 
 ```
+
+
 ```
 docker-compose logs lighthouse
 ```
+
+
 ```
 docker-compose logs charon
 ```
